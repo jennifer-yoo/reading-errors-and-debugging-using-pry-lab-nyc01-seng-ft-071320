@@ -12,14 +12,13 @@ end
 
 def selection(num)
   if num = 1
-     "YUM YUM MUNCH MUNCH MUNCH"
-  elsif num = 2
-     "HAM HAM HAM IN MY TUMMY"
+     return "YUM YUM MUNCH MUNCH MUNCH"
+  else num = 2
+     return "HAM HAM HAM IN MY TUMMY"
   end
 end
 
 def runner
   prompt_user
-  get_user_input
-  selection(num)
+  selection(get_user_input)
 end
